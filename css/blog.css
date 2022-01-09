@@ -1,0 +1,120 @@
+.header .nav ul li:first-child a::after {
+    display: none;
+}
+.header .nav ul li:nth-child(2) a::after {
+    display: none;
+}
+.header .nav ul li:nth-child(3) a::after {
+    content: '';
+    position: absolute;
+    top: 25px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 22px;
+    height: 4px;
+    background: rgba(253, 116, 155, 1);
+    border-radius: 15px;
+}
+/* Hero */
+.hero {
+    padding: 28px 0 0 0;
+}
+.hero h3 {
+    width: 380px;
+}
+.hero .col.text {
+    margin: 124px 204px 0 0 ;
+}
+/* Blog Content */
+.blog {
+    margin: 0;
+    padding: 76px 0 146px 0;
+}
+.blog .container {
+    max-width: 1170px;
+    border-radius: 15px;
+}
+.blog .blog-content {
+    margin: 0 0 60px 0;
+}
+.blog .blog-content img {
+    height: 520px;
+}
+.blog .blog-content-detail {
+    margin-top: -5px;
+    border: 1px solid transparent;
+    border: double 2px transparent;
+    border-top: none;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    background-image: linear-gradient(white, white), radial-gradient(circle at top left, rgba(253, 116, 155, 1),rgba(40, 26, 200, 1));
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+}
+.blog .blog-content .title {
+    padding: 65px 0 0 0;
+}
+.blog .blog-content h3 {
+    font-size: 32px;
+    line-height: 45px;
+    text-align: center;
+}
+.blog .blog-content .text {
+    width: 130px;
+    font-size: 10px;
+    line-height: 20px;
+    color: var(--first-color);
+    display: flex;
+    align-items: center;
+    margin: 15px auto 29px auto;
+}
+.blog .blog-content .text .text-line {
+    width: 1px;
+    height: 15px;
+    background: var(--first-color);
+    margin: 0 10px 0 10px;
+}
+.blog .blog-content p {
+    line-height: 28px;
+    color: var(--first-color);
+    width: 870px;
+    text-align: center;
+    margin: 0 auto 15px auto;
+}
+.blog .blog-content a {
+    width: 157px;
+    margin: 0 auto 39px auto;
+}
+.blog .blog-content a button {
+    background: linear-gradient(178.18deg, #FD749B -13.56%, #281AC8 158.3%);
+    color: #fff;
+    font-weight: 700;
+}
+.blog .number-page {
+    margin: 55px 0 0 0;
+}
+.blog .number-page ul {
+    width: 380px;
+    margin: 0 auto;
+    display: flex;
+}
+.blog .number-page ul li {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: 1px solid var(--fifth-color);
+    text-align: center;
+    line-height: 60px;
+    margin-right: 10px;
+    color: var(--first-color);
+}
+.blog .number-page ul li:first-child {
+    background: linear-gradient(178.18deg, #FD749B -13.56%, #281AC8 158.3%);
+    color: #fff;
+}
+.blog .number-page ul li:last-child {
+    width: 100px;
+    height: 60px;
+    border-radius: 100px;
+    margin-right: 0;
+}

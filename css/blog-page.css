@@ -1,0 +1,174 @@
+/* Hero */
+.hero {
+    position: relative;
+    background-image: url('../img/IMG-6.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.hero .title {
+    position: absolute;
+    top: 241px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.hero .title h3 {
+    width: 930px;
+    font-size: 32px;
+    line-height: 45px;
+    text-align: center;
+}
+.hero .title .text {
+    width: 130px;
+    font-size: 10px;
+    line-height: 20px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    margin: 15px auto 0 auto;
+}
+.hero .title .text .text-line {
+    width: 1px;
+    height: 15px;
+    background: #fff;
+    margin: 0 10px 0 10px;
+}
+/* Explanation */   
+.explanation {
+    padding: 18px 0 110px 0;
+}
+.explanation .container {
+    max-width: 751px;
+}
+.explanation p {
+    color: var(--first-color);
+    line-height: 28px;
+}
+.explanation .reference {
+    margin: 59px 0 60px 0;
+}
+.explanation .reference .row {
+    justify-content: space-between;
+    align-items: center;
+}
+.explanation .reference p {
+    width: 342px;
+}
+/* Tag-Share */
+.tag-share .container {
+    max-width: 751px;
+}
+.tag-share .row {
+    justify-content: space-between;
+    align-items: center;
+}
+.tag-share h4 {
+    font-weight: 700;
+    font-style: italic;
+    color: var(--first-color);
+}
+.tag-share .col.share {
+    display: flex;
+    align-items: center;
+}
+.tag-share span {
+    color: var(--first-color);
+    margin-right: 21px;
+}
+.tag-share a {
+    width: 37px;
+    height: 37px;
+    border-radius: 50%;
+    color: #fff;
+    text-align: center;
+    line-height: 37px;
+    font-size: 20px;
+    margin-right: 20px;
+}
+.tag-share a.fb {
+    background: #272EAE;
+}
+.tag-share a.tt {
+    background: #1590D8;
+}
+.tag-share a.yt {
+    background: #D0021B;
+    margin-right: 0;
+}
+/* Post */
+.post {
+    padding: 60px 0 114px 0;
+}
+.post .container {
+    max-width: 751px;
+}
+.post .row {
+    justify-content: space-between;
+}
+.post h3 {
+    font-size: 18px;
+    line-height: 25px;
+    font-weight: 700;
+    color: var(--first-color);
+    width: 270px;
+}
+.post .col.next h3 {
+    text-align: right;
+    width: 209px;
+}
+.post span {
+    display: block;
+    font-size: 12px;
+    line-height: 17px;
+    color: #989898;
+    margin: 19px 0 0 0;
+}
+.post .col.next span {
+    text-align: right;
+}
+/* Comment */
+.comment {
+    padding: 0 0 115px 0;
+}
+.comment .container {
+    max-width: 870px;
+    margin: 0 0 0 385px;
+}
+.comment h3 {
+    font-size: 24px;
+    line-height: 51px;
+    font-weight: 700;
+    color: var(--first-color);
+}
+.comment p {
+    line-height: 23px;
+    margin: 10px 0 60px 0;
+}
+.comment .form form input {
+    width: 411px;
+    height: 60px;
+    margin-right: 43.5px;
+    border: 1px solid #D1D1D1;
+    outline: none;
+    padding: 0 0 0 20px;
+    font-size: 14px;
+    color: #2F2F2F;
+}
+.comment .form form input.email-input {
+    margin-right: 0;
+}
+.comment .form form textarea {
+    width: 100%;
+    height: 190px;
+    padding: 0 0 0 20px;
+    margin: 30px 0 45px 0;
+    border: 1px solid #D1D1D1;
+    outline: none;
+    color: #2F2F2F;
+    padding: 10px 0 0 20px;
+    font-size: 14px;
+}
+.comment .form form button {
+    font-weight: 700;
+    color: #fff;
+    background: linear-gradient(178.18deg, #FD749B -13.56%, #281AC8 158.3%);
+}

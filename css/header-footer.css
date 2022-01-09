@@ -1,0 +1,187 @@
+/* Header */
+.header {
+    padding: 35px 0 40px;
+}
+.header .container {
+    max-width: 1307px;
+    display: flex;
+    align-items: center;
+}
+.header .logo {
+    width: 142px;
+    height: 28.6px;
+    margin-right: 265px;
+}
+.header .nav {
+    margin-right: 109px;
+}
+.header .nav ul {
+    display: flex;
+}
+.header .nav ul li {
+    margin-right: 68px;
+}
+.header .nav ul li:last-child {
+    margin-right: 0;
+}
+.header .nav ul li a {
+    font-weight: 700;
+    font-size: 14px;
+    color: var(--first-color);
+    position: relative;
+}
+.header .nav ul li a:hover {
+    background: -webkit-linear-gradient(rgba(253, 116, 155, 1),rgba(183, 87, 170, 1),rgba(40, 26, 200, 1));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.header .field {
+    font-weight: 700;
+    font-size: 14px;
+    color: var(--first-color);
+    margin-right: 46px;
+    position: relative;
+    cursor: pointer;
+}
+.header .field:hover .dropdown {
+    opacity: 1;
+    visibility: visible;
+} 
+.header .field .dropdown {
+    position: absolute;
+    top: 47.5px;
+    left: 140px;
+    width: 142px;
+    height: 62px;
+    border: 1px solid var(--fifth-color);
+    border-radius: 5px;
+    opacity: 0;
+    visibility: hidden;
+    transition: .3s;
+    z-index: 9999;
+    background: #fff;
+}
+.header .field .dropdown::before {
+    content: '';
+    position: absolute;
+    top: -12px;
+    left: 10px;
+    width: 14.48px;
+    height: 10.67px;
+    border: 1px solid var(--fifth-color);
+    border-bottom: transparent;
+}
+.header .field .dropdown .dropdown-item {
+    width: 100%;
+    height: 50%;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    transition: .3s;
+}
+.header .field .dropdown .dropdown-item:hover {
+    background: linear-gradient(178.18deg, #FD749B -13.56%, #281AC8 158.3%);
+}
+.header .field .dropdown .dropdown-item:hover a {
+    color: #fff;
+}
+.header .field .dropdown .dropdown-item a {
+    font-size: 12px;
+    color: var(--first-color);
+    line-height: 18px;
+    font-weight: 400;
+    padding: 0 12px;
+}
+.header button {
+    color: #fff;
+    font-size: 14px;
+    font-weight: 700;
+    background: linear-gradient(178.18deg, #FF457A -13.56%, #EE4280 -1.38%, #D13C8B 20.1%, #A2339C 57.69%, #A1329C 57.71%, #902FA2 71.12%, #7D2BA9 86.33%, #782AAB 90.81%, #6E28AE 99.76%, #5D25B5 115.87%, #4820BC 132.88%, #281AC8 158.3%);
+}
+/* Footer */
+.footer {
+    padding: 69px 51px 77px 80px;
+    background: #151515;
+}
+.footer .col.homepage .logo {
+    width: 112.22px;
+    height: 22.61px;
+    margin-top: 12px;
+}
+.footer .col.homepage p {
+    width: 369px;
+    font-size: 14px;
+    line-height: 24px;
+    color: var(--third-color);
+    margin:34px 0 26px 0;
+}
+.footer .col.homepage ul {
+    display: flex;
+}
+.footer .col.homepage ul li {
+    margin-right: 18px;
+}
+.footer .col.homepage ul li a i {
+    font-size: 15px;
+    color:#fff;
+}
+.footer .col h4 {
+    font-size: 18px;
+    line-height: 30px;
+    color: #fff;
+}
+.footer .col.link {
+    width: 170px;
+    margin: 0 63px 0 170px;
+}
+.footer .col.link ul {
+    margin-top: 30px;
+}
+.footer .col.link ul li {
+    padding: 5px 0;
+}
+.footer .col.link ul li a {
+    font-size: 12px;
+    color: var(--third-color);
+}
+.footer .col.link ul li a:hover {
+    color: #fff;
+    padding: 0 0 0 10px;
+}
+.footer .col.contact {
+    width: 226px;
+    margin-right: 63px;
+}
+.footer .col.contact p {
+    font-size: 12px;
+    line-height: 24px;
+    color: var(--third-color);
+    width: 180px;
+    margin-top: 20px;
+}
+.footer .col.contact a {
+    font-size: 12px;
+    line-height: 24px;
+    color: var(--third-color);
+    margin-top: 65px;
+}
+.footer .col.contact a:hover {
+    color:#fff;
+    padding: 0 0 0 10px;
+}
+.footer .col.instagram .row .col {
+    width: 70px;
+    height: 70px;
+    margin-right: 10px;
+    background: var(--fourth-color);
+    color: #fff;
+    line-height: 70px;
+    text-align: center;
+    font-size: 22px;
+}
+.footer .col.instagram .row .col:nth-child(4) {
+    margin-right: 0;
+}
+.footer .col.instagram .row.first {
+    margin:31px 0 10px 0;
+}
